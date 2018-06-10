@@ -48,6 +48,13 @@ margin-top: 425px;
 margin-left: 20px;
 }
 
+.button {
+border-top: none;
+border-left:none;
+background-color:#2B2933;
+color:#85909d;
+}
+
 .navibox {
 background-color:#2B2933;
 overflow: hidden;
