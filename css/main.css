@@ -1,44 +1,107 @@
 body {
-    margin: 60px auto;
-    width: 70%;
-    background-image: url("https://i.imgur.com/rUQjeBW.png");
+margin: 0px;
+width: 100%;
+background-image: url("https://i.imgur.com/rUQjeBW.png");
+font-family:'Arial';
+color: #85909d;
 }
+
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+font-family:'Helvetica', 'Arial', 'Sans-Serif';
+padding: 0px;
+list-style: none;
+font-weight: bold;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+a, a:visited, a:active {
+color:#8EAFB6;
+text-decoration: none;
 }
-a {
-    text-decoration: none;
-    color: #999;
-}
+
 a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+color:#ffffff;
+text-decoration:none;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+p { 
+margin: 2px 2px 2px 2px; 
+line-height:14px; 
+padding: 0; 
 }
 
-ul.posts li {
-    list-style: none;
+#sidebar{
+position: fixed;
+height: 100%;
+width: 350px;
+top: 0px;
+left: 0px;
+padding: 0px;
+background-color: rgba(0,0,0,0.4);
+border-right: 3px solid #2B2933;
+}
+
+#aboutboxholder {
+position: fixed;
+height: 200px;
+width: 300px;
+margin-top: 425px;
+margin-left: 20px;
+}
+
+.navibox {
+background-color:#2B2933;
+overflow: hidden;
+margin-top: 15px;
+margin-left: 350px;
+}
+
+.navi a {
+float: left;
+padding-left: 20px;
+background-color:#2B2933;
+font-family: century gothic;
+font-size: 10px;
+letter-spacing: 2px;
+text-decoration: none;
+text-transform: uppercase;
+}
+     
+.navi a:hover {
+letter-spacing: 3px;
+background-color: #494750;
+}
+        
+.desctitle {
+position: absolute;
+z-index: 2;
+height: auto;
+width: 100%;
+letter-spacing: 3px;
+line-height: 14px;
+font-family: century gothic;
+font-size: 12px;
+text-align: center;
+text-transform: uppercase;
+border-radius: 0px 0px 0px 0px;
+}
+     
+.descbox {
+position: absolute;
+z-index: 1;
+overflow: auto;
+max-height: 200px;
+width: 100%;
+margin-top: 16px;
+margin-left: auto;
+text-align: center;
+border-radius: 0px 0px 20px 20px;
+}
+       
+.sideimg {
+position: fixed;
+width: 340px;
+margin-top: 50px;
+margin-left: 5px;
+background-image: {image:300pxPortrait};
+border-radius: 50%;
 }
