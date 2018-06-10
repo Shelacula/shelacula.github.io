@@ -79,7 +79,7 @@ width: 100%;
 letter-spacing: 3px;
 line-height: 14px;
 font-family: century gothic;
-font-size: 12px;
+font-size: 15px;
 text-align: center;
 text-transform: uppercase;
 border-radius: 0px 0px 0px 0px;
@@ -87,6 +87,7 @@ border-radius: 0px 0px 0px 0px;
      
 .descbox {
 position: absolute;
+padding-top: 15px;
 z-index: 1;
 overflow: auto;
 max-height: 200px;
