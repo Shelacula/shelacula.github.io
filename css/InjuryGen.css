@@ -1,0 +1,19 @@
+h3 {
+width: 150px;
+margin: auto;
+}
+	
+#injurygenerator {
+width: 500px;
+margin: auto;
+}
+	
+#injurybutton {
+width: 100%;
+margin: auto;
+}
+	
+#ridername {
+width: 100%;
+left: 50%;
+}
