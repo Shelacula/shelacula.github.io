@@ -4,19 +4,19 @@
 	"minorly", "moderately", "slightly"
 ];
 	var severity2 = [
-	"severely", "debilitatingly", "brutally", "viciously", "horribly"
+	"severely", "debilitatingly", "brutally", "horribly"
 ];
 	var severity3 = [
-	"minorly", "moderately", "severely", "debilitatingly", "slightly", "brutally", "viciously", "horribly"
+	"minorly", "moderately", "severely", "debilitatingly", "slightly", "brutally", "horribly"
 ];
 	var severity4 = [
-	"minor", "moderate", "slight"
+	"minor", "moderate"
 ];
 	var severity5 = [
-	"severe", "debilitating", "brutal", "vicious", "horrible"
+	"severe", "debilitating", "brutal", "horrible"
 ];
 	var severity6 = [
-	"minor", "moderate", "severe", "debilitating", "slight", "brutal", "vicious", "horrible"
+	"minor", "moderate", "severe", "debilitating", "brutal", "horrible"
 ];
 	var wound = [
 	"burned", "bruised", "Threadscored", "cut", "scraped", "bumped"
