@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title>Clutch Generator</title>
-	<link rel="stylesheet" type="text/css" href="/css/ClutchGen.css">
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
-<script type="text/javascript" src="javascript/ClutchGen.js" async></script>
+	<link rel="stylesheet" type="text/css" href="ClutchGen.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+<script type="text/javascript" src="ClutchGen2.0.js" async></script>
 </head>
 <body>
 
@@ -28,8 +28,13 @@
 <p>
 
 <div id="clutchholder">
+	<form>
+    Dragon:<input type="radio" name="dragoncheck" id="firelizardcheck" value="0">
+	Gold Firelizard:<input type="radio" name="dragoncheck" id="goldcheck" value="2">
+	Green Firelizard:<input type="radio" name="dragoncheck" id="greencheck" value="2">
+</form>	
+<br>
 	<div id="clutchmaker"> 
-		
        <table class="clutchgen">
   <tr>
     <td class="label">Bronze</td>
@@ -46,6 +51,10 @@
   <tr>
     <td class="label">Green</td>
     <td id="greens"></td>
+  </tr>
+    <tr>
+    <td class="label">Gold</td>
+    <td id="gold"></td>
   </tr>
   <tr>
     <td class="label">Clutch Total</td>
