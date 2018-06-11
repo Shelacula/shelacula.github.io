@@ -1,7 +1,7 @@
 	function statGen() {
 
 	var bronze = Math.floor((Math.random() * 3) + 1);
-	var brown = Math.floor((Math.random() * 4) + 2);
+	var brown = Math.floor((Math.random() * 3) + 2);
 	var blue = Math.floor((Math.random() * 6) + 4);
 	var green = Math.floor((Math.random() * 7) + 10);
 	var clutchsize = Math.floor(bronze + brown + blue + green)
