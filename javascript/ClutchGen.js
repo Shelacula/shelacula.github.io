@@ -12,13 +12,13 @@
 	var greenbronze = Math.floor((Math.random() * 2) + 0);
 	var greenbrown = Math.floor((Math.random() * 3) + 0);
 	var greenblue = Math.floor((Math.random() * 3) + 1);
-	var greengreen = Math.floor((Math.random() * 2) + 3);
+	var greengreen = Math.floor((Math.random() * 2) + 2);
 	var greenclutchsize = Math.floor(greenbronze + greenbrown + greenblue + greengreen)
 	
 	var goldbronze = Math.floor((Math.random() * 4) + 0);
 	var goldbrown = Math.floor((Math.random() * 4) + 0);
 	var goldblue = Math.floor((Math.random() * 3) + 1);
-	var goldgreen = Math.floor((Math.random() * 3) + 3);
+	var goldgreen = Math.floor((Math.random() * 2) + 3);
 	var goldchance = Math.round(Math.random() * 100)
 	var goldclutchsize = Math.floor(goldbronze + goldbrown + goldblue + goldgreen)
 
