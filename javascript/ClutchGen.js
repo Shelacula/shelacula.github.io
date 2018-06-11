@@ -28,6 +28,7 @@ if (greencheck.checked) {
 	document.getElementById("browns").innerHTML = greenbrown;
 	document.getElementById("blues").innerHTML = greenblue;
 	document.getElementById("greens").innerHTML = greengreen;
+	document.getElementById("gold").innerHTML = " ";
 } else if (goldcheck.checked) {
 	document.getElementById("bronzes").innerHTML = goldbronze;
 	document.getElementById("browns").innerHTML = goldbrown;
@@ -46,5 +47,6 @@ if (greencheck.checked) {
 	document.getElementById("browns").innerHTML = brown;
 	document.getElementById("blues").innerHTML = blue;
 	document.getElementById("greens").innerHTML = green;
+	document.getElementById("gold").innerHTML = " ";
 }
 }
