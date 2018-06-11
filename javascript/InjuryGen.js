@@ -7,7 +7,7 @@
 	"severely", "debilitatingly", "brutally", "viciously", "horribly"
 ];
 	var severity3 = [
-	"minorly", "moderately", "severely", "debilitatingly", "slightly", "sort of", "brutally", "viciously", "horribly"
+	"minorly", "moderately", "severely", "debilitatingly", "slightly", "brutally", "viciously", "horribly"
 ];
 	var severity4 = [
 	"minor", "moderate", "slight"
