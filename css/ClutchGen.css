@@ -1,20 +1,16 @@
-h3 {
-width: 150px;
-margin: auto;
-}
-
 #clutchholder {
 margin-left: 500px;
 margin-top: 100px;
+width: 400px;
 }
 
 #clutchmaker {
-width: 150px;
+width: 200px;
 margin: auto;
 }
 	
 #statbutton {
-width: 100%;
+width: 150px;
 margin: auto;
 }
 
