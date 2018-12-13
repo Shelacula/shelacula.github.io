@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clutch Generator</title>
+	<link rel="stylesheet" type="text/css" href="ClutchGen.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+<script type="text/javascript" src="ClutchGen2.0.js" async></script>
+</head>
+<body>
+
+	<div class="navibox">
+    <div class="navi">
+	<a href="/">Home</a>
+    <a href="/InjuryGen">Injury Generator</a>
+    <a href="/ClutchGen">Clutch Generator</a>
+    </div>
+	
+    </div>
+	
+<div id="sidebar">
+<a href="/"><img src="https://i.imgur.com/0fnvkcu.png" class="sideimg"></a>
+	
+	<div id="aboutboxholder">
+    <div class="desctitle">What's this?</div>
+    <div class="descbox">A clutch generator! It's designed to create reasonably proportioned Pass-era gold clutches. It's especially useful for determining NPC clutches with minimal work - keep rolling until you get a distribution you like!</div>
+    </div>
+
+<p>
+
+<div id="clutchholder">
+	<form>
+    Dragon:<input type="radio" name="dragoncheck" id="firelizardcheck" value="0">
+	Gold Firelizard:<input type="radio" name="dragoncheck" id="goldcheck" value="2">
+	Green Firelizard:<input type="radio" name="dragoncheck" id="greencheck" value="2">
+</form>	
+<br>
+	<div id="clutchmaker"> 
+       <table class="clutchgen">
+  <tr>
+    <td class="label">Bronze</td>
+    <td id="bronzes"></td>
+  </tr>
+  <tr>
+    <td class="label">Brown</td>
+    <td id="browns"></td>
+  </tr>
+  <tr>
+    <td class="label">Blue</td>
+    <td id ="blues"></td>
+  </tr>
+  <tr>
+    <td class="label">Green</td>
+    <td id="greens"></td>
+  </tr>
+    <tr>
+    <td class="label">Gold</td>
+    <td id="gold"></td>
+  </tr>
+  <tr>
+    <td class="label">Clutch Total</td>
+    <td id="clutchsize"></td>
+  </tr>
+</table>
+<br>
+ <button class="button" id="statbutton" onclick="statGen()">BAM! DRAGONS</button>
+ </div>
+ </div>	
+</body>
+</html>
