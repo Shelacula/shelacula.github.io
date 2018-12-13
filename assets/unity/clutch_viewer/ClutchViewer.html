@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Look At Me!</title>
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="/assets/unity/cluch_viewer/TemplateData/favicon.ico">
+    <link rel="stylesheet" href="/assets/unity/cluch_viewer/TemplateData/style.css">
+    <script src="/assets/unity/cluch_viewer/TemplateData/UnityProgress.js"></script>  
+    <script src="/assets/unity/cluch_viewer/Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/FlitterBasket.json", {onProgress: UnityProgress});
+    </script>
+	</head>
+	
+	<body>
+	
+	
+	<div class="navibox">
+    <div class="navi">
+	<a href="/">Home</a>
+    <a href="/InjuryGen">Injury Generator</a>
+    <a href="/ClutchGen">Clutch Generator</a>
+    </div>
+	
+    </div>
+	
+<div id="sidebar">
+<a href="/"><img src="https://i.imgur.com/0fnvkcu.png" class="sideimg"></a>
+	
+	<div id="aboutboxholder">
+    <div class="desctitle">What's this?</div>
+    <div class="descbox">Shel has branched into 3D... OooOOooooh!</div>
+    </div>
+
+	    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">Clutch Viewer</div>
+      </div>
+    </div>
+	
+	
+	</body>
+</html>
