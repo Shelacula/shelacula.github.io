@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "FlitterBasket3.data.unityweb",
+"asmCodeUrl": "FlitterBasket3.asm.code.unityweb",
+"asmMemoryUrl": "FlitterBasket3.asm.memory.unityweb",
+"asmFrameworkUrl": "FlitterBasket3.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
